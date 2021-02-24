@@ -1,0 +1,1 @@
+# WAP N students take K apple and distribute them amoung each other evenly. The remaning parts remains 

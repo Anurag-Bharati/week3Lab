@@ -21,5 +21,5 @@ while checkIfTrue:
         print("Every student gets one apple")
     elif appleInTheBasket > numOfPeople:
         print("Every student gets ", appleInTheBasket//numOfPeople)
-    elif appleInTheBasket < numOfPeople
+    elif appleInTheBasket < numOfPeople:
         print()

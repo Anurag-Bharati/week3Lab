@@ -4,7 +4,7 @@ checkRight = True
 attempts = 3
 while checkRight:
     checkRight = False
-    a = int(input("Guess a secret number: "))
+    a = int(input(f"Guess a secret number between range 1 - 10: "))
     if a == n:
         print("You have guessed it correctly!! Congrats.")
         checkRight = False

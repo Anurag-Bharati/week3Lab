@@ -71,11 +71,12 @@ quit - to exit
 '''
 
 command = ""
-started = False
+started = True
 
 # while command != "quit":
 
-while True:
+while started:
+    started = False
     command = input("> ").lower()
     if command == "start":
         if started:
@@ -96,6 +97,8 @@ stop - to stop the car
 quit - to exit
         """)
     elif command == "quit" or "exit":
-        break
+        started = False
+
+
     else:
         print("Sorry, I don't understand that !!")

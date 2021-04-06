@@ -1,6 +1,6 @@
 # WAP to print the last digit
 
-w2_input = str(input())                  # Converts entered data into string so that the values can be indexed later on.
+w2_input = str(int(input()))             # Converts entered data into string so that the values can be indexed later on.
 
 w2_input_length = len(w2_input)             # Stores the entered data length
 

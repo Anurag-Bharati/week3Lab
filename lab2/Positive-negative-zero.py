@@ -7,4 +7,3 @@ else:
     print(w2_num_check > 0 and not w2_num_check < 0)        # Logic :P
 
 
-
